@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+  }
+  @font-face {
+    font-family:Poppins ;
+    src: url(../assets/fonts/Poppins-Black.ttf);
+   }      
+.divlogo{
+    display: flex;
+    justify-content: center;
+}
+.imglogo {
+    width:156px ;
+    height:149.39px ;
+}
+.divdescuento {
+    font-size: 20px;
+    background: rgb(237, 126, 152);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.ulcontenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.ulcontenedor li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.ulcontenedor li a:hover{
+    color: rgb(237, 126, 152);
+    
+}
+.img0 {
+    display: flex;
+}
+.img0 img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.divdescuento2{
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+}
+.divimagenes{
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(9,1fr);
+    gap: 5px;
+    text-align: center;
+}
+.img1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.img2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.img2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.img3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.img4{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.divfooter{
+    display:flex;
+    width: 100%;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    margin-top:500px ;
+    justify-content: space-around;
+    
+}
+.divlogos img{
+    
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.divlogos a {
+    text-decoration: none;
+}
+.divderechos {
+   text-align: center;
+   margin-top: 80px;
+}
+.imgpromo{
+    width: 427px;
+    height: 633px;
+    border: 10px solid rgb(255, 255, 255);
+    margin: 30px;
+}
+.divpromo1{
+    display: flex;
+    background: rgb(194, 181, 181);
+    height: 300px;
+    margin: 20px 0px 100px 0px  ;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.divimapa{
+    border: 10px solid rgb(255, 255, 255);
+}
+.pdemapa{
+   font-size: 30px;
+}
+.inframemapa{
+   margin: 10px;
+}
+.inputcontactos{  
+    width: 492px;
+    height: 80px;
+    margin: 5px;
+}
+.inputcomentarios{
+    width: 492px;
+    height: 300px;
+}
+.inputboton{
+    width: 200px;
+    height:30px ;
+}
