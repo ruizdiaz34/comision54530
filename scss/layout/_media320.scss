@@ -1,0 +1,30 @@
+@media (max-width:320px){
+    header{
+        .divdescuento{
+            width: 37.5rem;
+            p{
+                font-size: 12px;
+            }
+        } 
+    }
+    main{
+        .container-fluid{
+            @include width400px;
+        }
+        .divdescuento2{
+            @include width400px;
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    .main-contactos{
+        div{
+            h2{
+                width: 37.5rem;
+
+            }
+        }
+   
+}  
+}

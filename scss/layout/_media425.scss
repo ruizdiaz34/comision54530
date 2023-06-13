@@ -1,0 +1,70 @@
+@media (max-width:425px){
+    header{
+        .divdescuento{
+            width: 37.5rem;
+            p{
+                font-size:1rem;
+            }
+        }
+
+    }
+    main{
+        .h2promo{
+            width: 31.25rem;
+        }
+        .row{
+            width: 28.75rem;
+        }
+    }
+    .main-productos{
+        .h2productos{
+            width: 31.25rem;
+        }
+
+    }
+    .main-nuestrolocal{
+        div{
+            h2{
+                width: 31.25rem;
+            }
+        }
+        section{
+            .divmapa{
+                margin-left: 3.75rem;
+            }
+        }
+        .pnuestrolocal{
+            width: 31.25rem;
+            padding: 1.25rem;
+        }
+    }
+    .main-contactos{
+        div{
+            h2{
+                width: 37.5rem;
+
+            }
+        }
+        section{
+            h3{
+                width: 31.25rem;
+            }
+        }
+
+        section{
+            .fromcontactos{
+                align-items: center;
+                width: 31.25rem;
+                
+                .inputcontactos{
+                    width: 18.75rem;
+                }
+                .inputcomentarios{
+                    width: 18.75rem;
+                }
+            }
+        }
+        
+    }
+    
+}

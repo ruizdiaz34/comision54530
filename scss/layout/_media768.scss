@@ -1,0 +1,47 @@
+@media(max-width:768px){
+    header{
+        .divdescuento{
+            p{
+                font-size:1rem;
+            }
+        }
+    }
+    main{
+        
+        .divdescuento2{
+            p{
+                font-size: 18px;
+            }
+        } 
+
+    }
+    .main-contactos{
+        section{
+            h3{
+                width: 37.5rem;
+                }
+            
+        }
+        section{
+            .fromcontactos{
+                align-items: center;
+                width: 37.5rem;
+                
+                .inputcontactos{
+                    width: 25rem;
+                }
+                .inputcomentarios{
+                    width: 25rem;
+                }
+            }
+        }
+    }
+    .divfooter{
+        width: 37.5rem;
+    }
+    .derechos{
+        width: 37.5rem;
+    }
+  }
+
+

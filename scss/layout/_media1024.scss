@@ -1,0 +1,9 @@
+@media (max-width:1024px) {
+    .divimagenes{
+    @include flex-column-itemscenter;
+}
+.divfooter{
+    @include flex-column-itemscenter;
+}
+
+}
